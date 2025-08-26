@@ -1,0 +1,38 @@
+export default {
+  login: "alvarotrigo",
+  id: 1706326,
+  node_id: "MDQ6VXNlcjE3MDYzMjY=",
+  avatar_url: "https://avatars3.githubusercontent.com/u/1706326?v=4",
+  gravatar_id: "",
+  url: "https://api.github.com/users/alvarotrigo",
+  html_url: "https://github.com/alvarotrigo",
+  followers_url: "https://api.github.com/users/alvarotrigo/followers",
+  following_url:
+    "https://api.github.com/users/alvarotrigo/following{/other_user}",
+  gists_url: "https://api.github.com/users/alvarotrigo/gists{/gist_id}",
+  starred_url:
+    "https://api.github.com/users/alvarotrigo/starred{/owner}{/repo}",
+  subscriptions_url: "https://api.github.com/users/alvarotrigo/subscriptions",
+  organizations_url: "https://api.github.com/users/alvarotrigo/orgs",
+  repos_url: "https://api.github.com/users/alvarotrigo/repos",
+  events_url: "https://api.github.com/users/alvarotrigo/events{/privacy}",
+  received_events_url:
+    "https://api.github.com/users/alvarotrigo/received_events",
+  type: "User",
+  site_admin: false,
+  name: "Álvaro",
+  company: null,
+  blog: "http://alvarotrigo.com",
+  location: "Cambridge, UK",
+  email: null,
+  hireable: true,
+  bio:
+    "Web developer with love for beautiful stuff.\r\nhttps://twitter.com/imac2",
+  twitter_username: null,
+  public_repos: 70,
+  public_gists: 24,
+  followers: 2788,
+  following: 10,
+  created_at: "2012-05-04T15:52:02Z",
+  updated_at: "2021-01-02T18:56:45Z",
+};

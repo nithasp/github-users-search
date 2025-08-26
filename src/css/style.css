@@ -1,0 +1,85 @@
+@import url("../fonts/font-lists.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f5f8 !important;
+  font-family: "Cardo-Regular";
+}
+
+.img-fit {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.inner {
+  width: 93vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ul-cleargap {
+  display: flex;
+  list-style: none;
+  margin: 0 !important;
+}
+
+a,
+a:hover,
+a:focus {
+  color:inherit;
+  text-decoration: none;
+}
+
+.capitalize {
+  text-transform: uppercase !important;
+}
+
+.img-loading {
+  display: block;
+  margin: 3rem auto;
+  height: 27vw;
+  width: 27vw;
+}
+
+
+
+
+/* Safari & Chrome Scroll Bar */
+::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius:5px
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; 
+}
+@media (max-width: 800px) {
+  .img-loading {
+    display: block;
+    margin: 5rem auto;
+  }
+}
+@media (max-width: 576px) {
+  .inner {
+    width: 90vw;
+  }
+}
+@media (max-width: 500px) {
+  .img-loading {
+    display: block;
+    margin: 4rem auto;
+    height: 50vw;
+    width: 60vw;
+  }
+}

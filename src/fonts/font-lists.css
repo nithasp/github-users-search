@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'MHW';
+    src: url('../fonts/monster-hunter/monsterhunter.ttf');
+}
+
+@font-face {
+    font-family: 'NotoSerif-Regular';
+    src: url('../fonts/Noto_Serif/NotoSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'NotoSerif-Bold';
+    src: url('../fonts/Noto_Serif/NotoSerif-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Cardo-Regular';
+    src: url('../fonts/Cardo/Cardo-Regular.ttf')
+}
+@font-face {
+    font-family: 'Cardo-Bold';
+    src: url('../fonts/Cardo/Cardo-Bold.ttf')
+}
+@font-face {
+    font-family: 'MarcellusSC-Regular';
+    src: url('../fonts/Marcellus_SC/MarcellusSC-Regular.ttf')
+}
+
