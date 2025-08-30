@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# GitHub User Analytics Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modernized **GitHub Analytics System** with interactive data
+visualizations, built using **React.js** and **Chart.js**.
+This project helps analyze and display **GitHub user information,
+repository statistics, languages, and popularity metrics**, while
+offering a clean and user-friendly interface.
 
-## Available Scripts
+------------------------------------------------------------------------
 
-In the project directory, you can run:
+<p align="center">
+   <a href="https://raw.githubusercontent.com/nithasp/github-users-search/master/screenshots/sc1.png" target="_blank">
+    <img src="screenshots/sc1.png" />
+  </a>
+</p>
 
-### `npm start`
+------------------------------------------------------------------------
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-   **Search & Display GitHub Users** -- search by username and retrieve
+    key data.
+-   **Interactive Charts** -- visualize repositories by languages,
+    stars, forks, and popularity.
+-   **User Information Panel** -- displays profile details and
+    statistics.
+-   **Navigation & Error Handling** -- includes a responsive navbar,
+    home page, and error page.
+-   **Reusable Components** -- modular charts and UI elements for
+    scalability.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+------------------------------------------------------------------------
 
-### `npm test`
+## 🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   **Frontend:** React.js (functional components, Context API)
+-   **Charts & Data Visualization:** Chart.js (custom chart components)
+-   **Styling:** CSS
+-   **Other:** JavaScript (ES6+), Mock Data for testing
 
-### `npm run build`
+------------------------------------------------------------------------
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ``` bash
+    git clone https://github.com/nithasp/github-users-search
+    ```
 
-### `npm run eject`
+2.  Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    ``` bash
+    cd github-users-search
+    ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3.  Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    ``` bash
+    npm install
+    ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4.  Start the development server:
 
-## Learn More
+    ``` bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5.  Open your browser at:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    http://localhost:3000
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+------------------------------------------------------------------------
