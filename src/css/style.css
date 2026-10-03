@@ -43,8 +43,8 @@ a:focus {
 .img-loading {
   display: block;
   margin: 3rem auto;
-  height: 27vw;
-  width: 27vw;
+  height: 120px;
+  width: 120px;
 }
 
 
@@ -79,7 +79,7 @@ a:focus {
   .img-loading {
     display: block;
     margin: 4rem auto;
-    height: 50vw;
-    width: 60vw;
+    height: 90px;
+    width: 90px;
   }
 }
